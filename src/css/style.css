@@ -18,7 +18,7 @@ body {
 .title {
     width: 100%;
     height: 60px;
-    background: #0f0;
+    background: #b8d3b8;
     text-align: center;
     line-height: 60px;
     font-size: 22px;
@@ -33,7 +33,7 @@ body {
 .box .b-head {
     width: 100%;
     height: 60px;
-    background: #0f0;
+    background: #b8d3b8;
 }
 
 .box .b-body {
@@ -51,6 +51,7 @@ body {
 .box .b-body .footer {
     width: 760px;
     height: 60px;
+    display: flex;
     font-size: 0;
 }
 
@@ -58,6 +59,7 @@ body {
     height: 60px;
     outline: 0 none;
     border: none;
+    border-radius: 0;
 }
 
 #text {
