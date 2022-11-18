@@ -36,6 +36,7 @@ $(function () {
         $("#text").focus();
         $(".content").scrollTop(999999);
     }
+    
     //发送ajax请求
     function ajaxSend(message) {
         $.ajax({
@@ -59,6 +60,7 @@ $(function () {
             },
         });
     }
+
     //数据请求成功处理
     function ajaxSucc(result) {
         $("audio").remove();
@@ -69,10 +71,12 @@ $(function () {
         $("body").append(obj);
         $(".content").scrollTop(999999);
     }
+
     // 点击发送消息
     $("#btn").click(function () {
         send();
     });
+
     //回撤发送消息
     $(document).keydown(function (event) {
         //是否为回车
